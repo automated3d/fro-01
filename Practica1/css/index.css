@@ -1,0 +1,21 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+
+.fondo-rojo {
+    background-color: #C51624;
+}
+
+.fondo-negro {
+
+    background-color: #000;
+    color: #fff;
+}
+
+.fondo-azul {
+    background-color: #0000FF;
+}
