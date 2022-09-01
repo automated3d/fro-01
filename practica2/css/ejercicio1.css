@@ -1,0 +1,28 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    margin: 20px;
+    font-weight: 500;
+}
+
+h2 {
+    margin: 15px;
+}
+
+#sct-prf1 {
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+#sct-prf2 {
+    padding: 20px;
+}
+
+body {
+    background-image: linear-gradient(to right, #e82f1f, #dc3022, #e23b2e, #e84a3d, #ec5347, #f05c50);
+}
