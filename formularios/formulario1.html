@@ -8,9 +8,14 @@
     <!-- 1. Reset  -->
     <link rel="stylesheet" href="css/reset.css">
 
-    <!--2. Estilos externos (tipografias de google)-->
+    <!--2. Estilos externos (tipografias de google, iconos)-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- 3. Estilos de la pagina -->
+
     <link rel="stylesheet" href="css/formulario1.css">
 
     <title>Document</title>
@@ -20,13 +25,14 @@
 
     <main>
         <h1>Carrera del dia de la madre</h1>
-        <section>
-            <h2>Automated3d</h2>
-            <header>
-                <h3>Registro en linea</h3>
-            </header>
-            <form id="frm-registro">
+        <h2>Automated3d</h2>
+        <section id="sct-registro">
 
+
+            <form id="frm-registro">
+                <header>
+                    <h3>Registro en linea</h3>
+                </header>
 
                 <div class="fila">
                     <div class="columna-2">
@@ -65,7 +71,7 @@
                     <div class="columna-3">
                         <label for="slt-provincia">Provincia</label>
                         <select id="slt-provincia">
-                            <option value="">-- Seleccione Provincia --</option>
+                            <option value="">-- Provincia --</option>
                             <option value="San Jose">San Jose</option>
                             <option value="Alajuela">Alajuela</option>
                             <option value="Cartago">Cartago</option>
@@ -84,7 +90,7 @@
 
                 <div class="fila">
                     <div class="columna">
-                        <button type="button" id="btn-registrar">Registrarme</button>
+                        <button type="button" id="btn-registrar" class="btn-morado">Registrarme</button>
                     </div>
 
                 </div>
