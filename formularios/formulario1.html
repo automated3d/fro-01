@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 1. Reset  -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!--2. Estilos externos (tipografias de google)-->
+
+    <!-- 3. Estilos de la pagina -->
+    <link rel="stylesheet" href="css/formulario1.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <h1>Carrera del dia de la madre</h1>
+        <section>
+            <h2>Automated3d</h2>
+            <header>
+                <h3>Registro en linea</h3>
+            </header>
+            <form id="frm-registro">
+
+
+                <div class="fila">
+                    <div class="columna-2">
+                        <label for="txt-nombre">Nombre</label>
+                        <input type="text" placeholder="Nombre" id="txt-nombre">
+                    </div>
+
+                    <div class="columna-2">
+                        <label for="txt-apellidos">Apellidos</label>
+                        <input type="text" placeholder="Apellidos" id="txt-apellidos">
+                    </div>
+                </div>
+
+                <div class="fila">
+                    <div class="columna">
+                        <label for="txt-correo">Correo Electronico</label>
+                        <input type="email" placeholder="automated3d@gmail.com" id="txt-correo">
+                    </div>
+
+                </div>
+
+                <div class="fila">
+                    <div class="columna">
+                        <label for="txt-direccion">Direccion</label>
+                        <input type="text" placeholder="Direccion" id="txt-direccion">
+                    </div>
+
+                </div>
+
+                <div class="fila">
+                    <div class="columna-3">
+                        <label for="txt-ciudad">Ciudad</label>
+                        <input type="text" placeholder="Ciudad" id="txt-ciudad">
+                    </div>
+
+                    <div class="columna-3">
+                        <label for="slt-provincia">Provincia</label>
+                        <select id="slt-provincia">
+                            <option value="">-- Seleccione Provincia --</option>
+                            <option value="San Jose">San Jose</option>
+                            <option value="Alajuela">Alajuela</option>
+                            <option value="Cartago">Cartago</option>
+                            <option value="Heredia">Heredia</option>
+                            <option value="Puntarenas">Puntarenas</option>
+                            <option value="Limon">Limon</option>
+                            <option value="Guanacaste">Guanacaste</option>
+                        </select>
+                    </div>
+
+                    <div class="columna-3">
+                        <label for="txt-zip">Codigo Postal</label>
+                        <input type="text" placeholder="Codigo Postal" id="txt-zip">
+                    </div>
+                </div>
+
+                <div class="fila">
+                    <div class="columna">
+                        <button type="button" id="btn-registrar">Registrarme</button>
+                    </div>
+
+                </div>
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
