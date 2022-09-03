@@ -1,77 +1,34 @@
 html {
-    font-family: 'Karla', sans-serif;
-}
-
-#sct-intro {
-    background-color: black;
-    color: white;
-    margin-top: 10%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-    margin-left: 3%;
-    padding: 5px;
-    font-size: 28px;
-    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    margin: 20px;
+    font-weight: 500;
 }
 
 h2 {
-    margin-left: 3%;
-    padding: 5px;
-    font-size: 20px;
-    font-size: 28px;
-    font-weight: bold;
+    margin: 15px;
 }
 
-h3 {
-    margin-left: 3%;
-    margin-bottom: 1%;
-    padding: 5px;
-    font-size: 28px;
-    font-weight: bold;
+#sct-prf1 {
+    padding: 20px;
+    margin-bottom: 5px;
 }
 
-h4 {
-    margin-bottom: 10%;
-    margin-left: 3%;
-    padding: 4px;
-    font-size: 15px;
+#sct-prf2 {
+    padding: 20px;
+    margin-bottom: 60px;
 }
 
-.alignleft {
-    float: left;
+body {
+    background-image: linear-gradient(to right, #cae2cf, #9dbbab, #80af98, #76b391, #50a081, #35a882);
 }
 
-.alignright {
-    float: right;
-}
-
-.fila-1 {
-    float: right;
-    margin-right: 2%;
-    margin-top: 4%;
-    word-spacing: 20px;
-    font-size: 16px;
-}
-
-.fila-2 {
-    float: left;
-    margin-left: 2%;
-    margin-top: 4%;
-    word-spacing: 20px;
-    font-size: 20px;
-}
-
-.fila-3 {
-    margin: 20%;
-    text-align: left;
-    font-size: 90px;
-    font-weight: bold;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+#sct-prf3 {
+    display: flex;
+    justify-content: center;
 }
